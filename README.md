@@ -31,5 +31,5 @@ Go to the "Principal Mehtod" and edit its contents.
 <br>
 Be sure to check the __mocks.js__ file. You may include there the object of your preference. It's already imported in the main file.
 
-<br><br>
+<br>
 *Due to time constraints I wasn't able to set this up as an actual npm package. 
