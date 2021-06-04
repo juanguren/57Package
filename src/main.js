@@ -1,12 +1,5 @@
 const getQuote = require("./service/zen_api");
 const { mockObject } = require("./mocks");
-/**
- * Instructions:
- *  1. "largest" (Looks for an array)    --> Map array under x key name and return its largest number
- *  2. "quote" (Doesn't look for any particular key/value. Simply returns an inspiring quote)      --> Generate a random zen quote
- *  3. "pow" (Looks for a number)        --> Returns number multiplied by itself
- *  4. "backwards" (Looks for a string)  --> Returns a reversed string
- */
 
 const executeSelectionLogic = async (value, instruction) => {
   let final = null;
