@@ -30,7 +30,7 @@ const executeSelectionLogic = async (value, instruction) => {
 
         case "pow":
           if (typeof value == "number") {
-            final = value * value;
+            final = Math.pow(value, 3);
             break;
           }
           throw new Error(`${value} is not a Number`);
